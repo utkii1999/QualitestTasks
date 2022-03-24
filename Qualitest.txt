@@ -1,0 +1,158 @@
+Prerequisite- Launching the web browser as required. 
+
+Test Summary - Launching the URL
+Test Description 
+<1> Verify the accessibility of URL field.
+Test Steps
+•	Click on the input URL field by user.
+•	Verify user can type URL in the field. 
+Expected Result :- Visibility and accessibility of URL field on the browser page.
+<2> Verify by without entering the URL in the field.
+Test Steps
+•	Click on the input URL field by user.
+•	No URL should be typed in URL field.
+•	Click on search button.
+Expected Result :- A proper error message “No URL found” should be shown.
+<3> Verify the availability and accessibility of search button to launch the URL.
+Test Steps
+•	Reach to the URL field.
+•	Presence of search button should be there.
+•	Search button should be clickable.
+Expected result :- Launching of the URL.
+--------------------------------------------------------------------------------------------------------------------
+
+Test Summary - Verify the login functionality of Gmail signin  page.
+Test Description 
+<1> User enters valid e-mail or phone and valid password 
+Test Steps
+•	Enter valid e-mail or phone. For example:- utkarsh@gmail.com
+•	Click on next.
+•	Enter valid password. For example:- P@ssword123
+•	Click on next.
+Expected Result :-  Successful Login and a pop up message should appear.
+<2> User enters valid e-mail or phone and invalid password 
+Test Steps
+•	Enter valid e-mail or phone. For example:- utkarsh@gmail.com
+•	Click on next.
+•	Enter invalid password. For example:- P@sswor
+•	Click on next.
+Expected Result :- Alert message: Wrong password. Try again or click Forgot password to reset it.
+<3> User enters invalid e-mail or phone.
+Test Steps
+•	Enter invalid e-mail or phone. For example:- utkarsh@gmil.com
+•	Click on next.
+Expected Result :- Alert Message : Enter a valid email or phone. Try again or click Forgot email.
+------------------------------------------------------------------------------------------------------------------
+
+Test Summary – Reset password.
+Test Description 
+<1> Verify that whether user is able to view "Forget Password" link .
+Test Steps
+•	Enter valid e-mail or phone. For example:- utkarsh@gmail.com
+•	Click on next.
+Expected Result :-  Forgot password link  should be visible under enter password dialog box.
+<2> Verify whether user is able to click on the link.
+Test Steps
+•	Enter valid e-mail or phone. For example:- utkarsh@gmail.com
+•	Click on next.
+•	Click on forgot password link.
+Expected Result :- forgot password link should be accessible.
+<3> Verify whether user pre-mentioned any recovery mail to recover password.
+Test Steps
+•	Enter valid e-mail or phone. For example:- utkarsh@gmail.com
+•	Click on next.
+•	Click on forgot password link.
+Expected Result :-  Pre-mentioned recovery mail should be visible to the user and a next button.
+<4> Verify  clickability of next button .
+Test Steps
+•	Click on next button.
+Expected Result :-  A dialog box appears containing create password block and confirm block.
+<5> Validation of no. of characters in password field should be more than 8.
+Test Steps
+•	Click on create password block and  typing of the valid password by user. For example:- 123456789
+•	Click on confirm password block and type the same password as above.
+Expected Result :-  Successful password change.
+<6> Verify the redirection on the login page.
+Test Steps
+•	Automatic redirection to the signin page.
+Expected Result :-  Sign in page should appear eventually.
+------------------------------------------------------------------------------------------------------
+
+
+
+Test Summary – Searching Functionality
+Test Description 
+<1> Verify the search bar on home screen 
+Test Steps
+•	Successful sign-in.
+•	Reach to the home page.
+Expected Result :- Search bar should be present  on home page.
+<2> Verify the presence of voice recognition icon in the search box.
+Test Steps
+•	Successful sign-in.
+•	Reach to the home page.
+•	Access search bar.
+Expected Result :- Voice recognition icon should be available in serach box.
+<3> Verify the availablity of recent mail searches before user types searching words.
+Test Steps
+•	Successful sign-in.
+•	Reach to the home page.
+•	Click on search bar.
+Expected Result :- List of recent mail searches .
+<4> There should be pre-defined search criteria for quick results after typing one word.
+Test Steps
+•	Successful sign-in.
+•	Reach to the home page.
+•	Click on search bar.
+•	Words for search typed by user.
+Expected Result :- List of matching quick results.
+
+<5> Time and date should be display in front  of every searched result.
+Test Steps
+•	Successful sign-in.
+•	Reach to the home page.
+•	Click on search bar.
+•	Words for search typed by user.
+•	Click on search button.
+Expected Result :- Searched results containing date and time.
+For example:- Google  13:00
+<6> Verify that the search is case-insensitive .
+Test Steps
+•	Click on search button.
+•	Type words to search.
+Expected Result :- Both “GoOgle” and “google” should result in same result and searched results appears irrespective of case.
+<7> Verify the search response for a large but valid strings
+Test Steps
+•	Click on search button.
+•	Type words to search. For eg:- hhdhhsjjajjdsjdjddsd…….
+•	But not invalid string. For eg:- hhsjdj@”jhdsdh
+Expected Result :- Successful searching.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
